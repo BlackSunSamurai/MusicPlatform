@@ -9,10 +9,4 @@ public class Song : BaseEntity
     public string Lyrics    { get; set; }
     
     public string SongURL   { get; set; }
-    
-    public Album? Album     { get; set; }
-    public Album  AlbumId   { get; set; }
-    
-    public Artist Artist    { get; set; }
-    public int    ArtistId  { get; set; }
 }
